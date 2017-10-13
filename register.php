@@ -42,16 +42,16 @@
           <h4>Login to you account</h4>
           <div class="form-group">
             <?php echo $account->getError(Constants::$loginFailed); ?>
-            <i class="fa fa-user" aria-hidden="true"></i>
+            <span class="fa fa-user" aria-hidden="true"></span>
             <label for="loginUsername">Username</label>
-            <input type="text" class="form-control" id="loginUsername"  name="loginUsername" required>
+            <input type="text" class="form-control "  id="loginUsername"  name="loginUsername" required>
             </div>
           <div class="form-group">
-            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+            <span class="fa fa-unlock-alt" aria-hidden="true"></span>
             <label for="loginPassword">Password</label>
             <input type="password" class="form-control " id="loginPassword" name="loginPassword"  required>
           </div>
-          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg" style="cursor:pointer">Sign In</button>
+          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg" style="cursor:pointer"><span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button>
        </form>
 
 
@@ -60,7 +60,7 @@
 
        <form id="registerForm" action="register.php" method="POST">
         <h4>Create free account with Slotify</h4>
-          <div class="form-group">
+          <div class="form-group1">
               <?php echo $account->getError(Constants::$usernameLength); ?>
               <?php echo $account->getError(Constants::$usernameExisting); ?>
               <label for="username">Username</label>
@@ -99,7 +99,7 @@
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>
           </div>
-          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" style="cursor:pointer">Register</button>
+          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" style="cursor:pointer"><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button>
        </form>
       </div>
     </div>
