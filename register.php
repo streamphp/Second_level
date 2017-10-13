@@ -25,8 +25,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/register.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet"
-          href="http://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/register.js"></script>
     <style>
       body {
         font-family: 'Roboto', serif;
@@ -51,11 +52,13 @@
             <label for="loginPassword">Password</label>
             <input type="password" class="form-control " id="loginPassword" name="loginPassword"  required>
           </div>
-          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg" style="cursor:pointer"><span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button>
+          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg">
+            <span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button> 
+          <span id="hideLogin">Don't have an account yet? Signup here.</span>
        </form>
+       
 
-
-       <br><br><br>
+       <br><br><br><br><br>
 
 
        <form id="registerForm" action="register.php" method="POST">
@@ -99,8 +102,10 @@
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>
           </div>
-          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" style="cursor:pointer"><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button>
+          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" ><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button> 
+          <span id="hideRegister">Have an account? Signin here.</span>
        </form>
+        
       </div>
     </div>
   </div>
@@ -108,6 +113,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
   </body>

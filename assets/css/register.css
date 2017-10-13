@@ -7,7 +7,7 @@ body{
 }
 
 #background {
-    background-image: url(../images/background/bg000.png);
+    background-image: url(../images/background/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -67,3 +67,20 @@ font-family:'Roboto',sans-serif;
     
 }
 
+#hideLogin{
+	    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    padding: 25px;
+    margin: 20px;
+    position: absolute;
+}
+
+#hideRegister{
+	    text-align: center;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    padding: 25px;
+    margin-left: 50px;
+    position: absolute;
+}
