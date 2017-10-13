@@ -51,7 +51,7 @@
             <label for="loginPassword">Password</label>
             <input type="password" class="form-control " id="loginPassword" name="loginPassword"  required>
           </div>
-          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg">Sign In</button>
+          <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg" style="cursor:pointer">Sign In</button>
        </form>
 
 
@@ -99,7 +99,7 @@
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>
           </div>
-          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg">Register</button>
+          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" style="cursor:pointer">Register</button>
        </form>
       </div>
     </div>
