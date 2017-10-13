@@ -7,7 +7,7 @@ body{
 
 }
 
-#background{
+#background {
     background-image: url(../images/background/bg000.png);
     background-position: center;
     background-size: cover;
@@ -17,6 +17,7 @@ body{
     height: 100%;
     width: 100%;
     min-height: 640px;
+    background-origin: padding-box;
 }
 
 .loginContainer * {
@@ -63,4 +64,5 @@ font-family:'Roboto',sans-serif;
     border-radius: 40px;
     width: -webkit-fill-available;
     width: 100%;
+    border: 1.5px solid #fff;
 }
