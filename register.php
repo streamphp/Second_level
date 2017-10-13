@@ -58,7 +58,7 @@
        </form>
        
 
-       <br><br><br><br><br>
+       <br><br><br><br>
 
 
        <form id="registerForm" action="register.php" method="POST">
@@ -67,17 +67,17 @@
               <?php echo $account->getError(Constants::$usernameLength); ?>
               <?php echo $account->getError(Constants::$usernameExisting); ?>
               <label for="username">Username</label>
-              <input type="text" class="form-control " id="username"  name="username" value="<?php getInputValue('username') ?>"  required >
+              <input type="text" class="form-control " id="username"  name="username" value="<?php getInputValue('username') ?>"  required ><br>
 
 
               <?php echo $account->getError(Constants::$firstNameLength); ?>
               <label for="firstName">First name</label>
-              <input type="text" class="form-control " id="firstName"  name="firstName" value="<?php getInputValue('firstName') ?>" required>
+              <input type="text" class="form-control " id="firstName"  name="firstName" value="<?php getInputValue('firstName') ?>" required><br>
 
 
               <?php echo $account->getError(Constants::$lastNameLength); ?>
               <label for="lastName">Last name</label>
-              <input type="text" class="form-control " id="lastName"  name="lastName" value="<?php getInputValue('lastName') ?>"  required>
+              <input type="text" class="form-control " id="lastName"  name="lastName" value="<?php getInputValue('lastName') ?>"  required><br>
 
 
 
@@ -85,19 +85,19 @@
               <?php echo $account->getError(Constants::$email_InvalidFormat); ?>
               <?php echo $account->getError(Constants::$emailExisting); ?>
               <label for="email">Email</label>
-              <input type="email" class="form-control " id="email"  name="email" value="<?php getInputValue('email') ?>" required>
+              <input type="email" class="form-control " id="email"  name="email" value="<?php getInputValue('email') ?>" required><br>
 
 
               
               <label for="email2">Confirm email</label>
-              <input type="email" class="form-control " id="email2"  name="email2" value="<?php getInputValue('email2') ?>" required>
+              <input type="email" class="form-control " id="email2"  name="email2" value="<?php getInputValue('email2') ?>" required><br>
           </div>
            <div class="form-group">
             <?php echo $account->getError(Constants::$passwords_DontMatch); ?>
             <?php echo $account->getError(Constants::$passwordsCharacters); ?>
             <?php echo $account->getError(Constants::$passwords_LengthChar); ?>
             <label for="password">Password</label>
-            <input type="password" class="form-control " id="password" name="password"  required>
+            <input type="password" class="form-control " id="password" name="password"  required><br>
 
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>

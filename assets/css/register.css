@@ -34,8 +34,8 @@ body{
 	background-color: transparent;
     border: 0;
     border-bottom: 1px solid #fff;
-    border-radius: 0px;
-    line-height: 20px;
+    border-radius: 1px;
+    line-height: 30px;
     width: 100%;
     color: #f7f8f9;
     font-size: 18px;
@@ -64,11 +64,11 @@ font-family:'Roboto',sans-serif;
     width: -webkit-fill-available;
     width: 100%;
     border: 1.5px solid #fff;
-    height: 50px;
+    height: 40px;
 }
 
 #hideLogin{
-	    text-align: center;
+    text-align: center;
     font-size: 13px;
     font-family: 'Roboto',sans-serif;
     padding: 25px;
