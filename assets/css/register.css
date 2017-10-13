@@ -34,7 +34,7 @@ body{
 	background-color: transparent;
     border: 0;
     border-bottom: 1px solid #fff;
-    border-radius: 1px;
+    border-radius: 0px;
     line-height: 30px;
     width: 100%;
     color: #f7f8f9;
@@ -56,10 +56,10 @@ font-family:'Roboto',sans-serif;
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    padding: .25rem .5rem;
-    font-size: .875rem;
-    line-height: 1.5;
-    border-radius: .2rem; 
+    padding: 0;
+    font-size: 20px;
+    line-height: 10px;
+    border-radius: .2rem;
     border-radius: 40px;
     width: -webkit-fill-available;
     width: 100%;
@@ -71,16 +71,21 @@ font-family:'Roboto',sans-serif;
     text-align: center;
     font-size: 13px;
     font-family: 'Roboto',sans-serif;
-    padding: 25px;
-    margin: 20px;
-   
+    padding: 1.5px;
+    margin-left: 50px;
+    border: 0;
 }
 
 #hideRegister{
-	    text-align: center;
+    text-align: center;
     font-size: 13px;
     font-family: 'Roboto',sans-serif;
-    padding: 25px;
-    margin-left: 50px;
-    
+    padding: 1.5px;
+    margin-left: 80px;
+    border: 0;
+
+}
+
+#registerForm{
+	display: none;
 }

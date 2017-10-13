@@ -34,6 +34,19 @@
         font-size: 20px;
       }
     </style>
+
+
+    <script >
+      $(document).ready(function() {
+        $("#loginForm").show();
+        $("#registerForm").hide();
+    });
+    </script>
+
+
+
+
+
   </head>
   <body>
   <div class="jumbotron" id="background">
@@ -53,7 +66,7 @@
             <input type="password" class="form-control " id="loginPassword" name="loginPassword"  required>
           </div>
           <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg">
-            <span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button> <br><br>
+            <span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button> 
           <span id="hideLogin">Don't have an account yet? Signup here.</span>
        </form>
        
@@ -67,17 +80,17 @@
               <?php echo $account->getError(Constants::$usernameLength); ?>
               <?php echo $account->getError(Constants::$usernameExisting); ?>
               <label for="username">Username</label>
-              <input type="text" class="form-control " id="username"  name="username" value="<?php getInputValue('username') ?>"  required ><br>
+              <input type="text" class="form-control " id="username"  name="username" value="<?php getInputValue('username') ?>"  required >
 
 
               <?php echo $account->getError(Constants::$firstNameLength); ?>
               <label for="firstName">First name</label>
-              <input type="text" class="form-control " id="firstName"  name="firstName" value="<?php getInputValue('firstName') ?>" required><br>
+              <input type="text" class="form-control " id="firstName"  name="firstName" value="<?php getInputValue('firstName') ?>" required>
 
 
               <?php echo $account->getError(Constants::$lastNameLength); ?>
               <label for="lastName">Last name</label>
-              <input type="text" class="form-control " id="lastName"  name="lastName" value="<?php getInputValue('lastName') ?>"  required><br>
+              <input type="text" class="form-control " id="lastName"  name="lastName" value="<?php getInputValue('lastName') ?>"  required>
 
 
 
@@ -85,24 +98,24 @@
               <?php echo $account->getError(Constants::$email_InvalidFormat); ?>
               <?php echo $account->getError(Constants::$emailExisting); ?>
               <label for="email">Email</label>
-              <input type="email" class="form-control " id="email"  name="email" value="<?php getInputValue('email') ?>" required><br>
+              <input type="email" class="form-control " id="email"  name="email" value="<?php getInputValue('email') ?>" required>
 
 
               
               <label for="email2">Confirm email</label>
-              <input type="email" class="form-control " id="email2"  name="email2" value="<?php getInputValue('email2') ?>" required><br>
+              <input type="email" class="form-control " id="email2"  name="email2" value="<?php getInputValue('email2') ?>" required>
           </div>
            <div class="form-group">
             <?php echo $account->getError(Constants::$passwords_DontMatch); ?>
             <?php echo $account->getError(Constants::$passwordsCharacters); ?>
             <?php echo $account->getError(Constants::$passwords_LengthChar); ?>
             <label for="password">Password</label>
-            <input type="password" class="form-control " id="password" name="password"  required><br>
+            <input type="password" class="form-control " id="password" name="password"  required>
 
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>
           </div>
-          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" ><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button> <br><br>
+          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" ><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button> 
           <span id="hideRegister">Have an account? Signin here.</span>
        </form>
         
