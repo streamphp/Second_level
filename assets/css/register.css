@@ -64,7 +64,7 @@ font-family:'Roboto',sans-serif;
     width: -webkit-fill-available;
     width: 100%;
     border: 1.5px solid #fff;
-    
+    height: 50px;
 }
 
 #hideLogin{

@@ -53,7 +53,7 @@
             <input type="password" class="form-control " id="loginPassword" name="loginPassword"  required>
           </div>
           <button type="submit" name="loginButton" class="btn btn-outline-success btn-lg">
-            <span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button> 
+            <span class="fa fa-sign-in" aria-hidden="true"></span>  Sign In</button> <br><br>
           <span id="hideLogin">Don't have an account yet? Signup here.</span>
        </form>
        
@@ -102,7 +102,7 @@
             <label for="password2">Confirm password</label>
             <input type="password" class="form-control " id="password2" name="password2"  required>
           </div>
-          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" ><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button> 
+          <button type="submit" name="registerButton" class="btn btn-outline-success btn-lg" ><span class="fa fa-user-plus" aria-hidden="true"></span>  Register</button> <br><br>
           <span id="hideRegister">Have an account? Signin here.</span>
        </form>
         
