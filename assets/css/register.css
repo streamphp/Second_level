@@ -73,7 +73,7 @@ font-family:'Roboto',sans-serif;
     font-family: 'Roboto',sans-serif;
     padding: 25px;
     margin: 20px;
-    position: absolute;
+   
 }
 
 #hideRegister{
@@ -82,5 +82,5 @@ font-family:'Roboto',sans-serif;
     font-family: 'Roboto',sans-serif;
     padding: 25px;
     margin-left: 50px;
-    position: absolute;
+    
 }
