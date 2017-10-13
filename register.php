@@ -35,7 +35,7 @@
     </style>
   </head>
   <body>
-  <div class="background">
+  <div class="jumbotron" id="background">
     <div class="loginContainer">
          <div id="inputContainer">
          <form id="loginForm" action="register.php" method="POST">
