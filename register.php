@@ -85,8 +85,7 @@
        </form>
        
 
-       <br><br><br><br>
-
+       
 
        <form id="registerForm" action="register.php" method="POST">
         <h4>Create free account with Slotify</h4>
@@ -134,6 +133,15 @@
        </form>
         
       </div>
+        <div id="loginText">
+            <h1>Get great music, right now</h1>
+            <h2>Listen to load of songs free!</h2>
+            <ul>
+                <li>Discover musics you'll fall in love with it.</li>
+                <li>Follow artists to keep up to date.</li>
+                <li>Create your own playlist.</li>
+            </ul>
+        </div>
     </div>
   </div>
 

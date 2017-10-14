@@ -99,3 +99,23 @@ label{
     margin-bottom: -50px;
      margin-top: 20px; 
 }
+
+#loginText{
+	padding: 45px;
+    display: table-cell;
+
+}
+
+#loginText h1{
+	color: #72db46;
+	font-size: 63px;
+	font-weight: bold;
+}
+#loginText h2{
+	margin: 25px 0;
+	font-size: 35px;
+	font-weight: bold;
+}
+#loginText ul{
+	padding: 0;
+}
