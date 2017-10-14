@@ -107,7 +107,7 @@ label{
 }
 
 #loginText h1{
-	color: #72db46;
+	color: #5dd88c;
 	font-size: 63px;
 	font-weight: bold;
 }
@@ -118,4 +118,29 @@ label{
 }
 #loginText ul{
 	padding: 0;
+}
+
+
+ #loginText li{
+    list-style-type: none;
+    font-size: 21px;
+    padding: 12px;
+    list-style-image: url(../images/icons/checklist.png);
+}
+
+.btn-outline-success {
+    color: #5dd88c;
+    background-color: transparent;
+    background-image: none;
+    border-color: #5dd88c;
+}
+
+.fa-sign-in:before {
+    content: "\f090";
+    color: #5dd88c;
+}
+
+.fa-user-plus::before {
+    content: "";
+    color: #5dd88c;
 }
