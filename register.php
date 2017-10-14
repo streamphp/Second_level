@@ -1,15 +1,15 @@
 <?php
   include("includes/handler/config.php");
   include("includes/classes/Account.php");
-    $account=new Account($con);
   include("includes/classes/Constants.php");
+    $account=new Account($con);
   include("includes/handler/register_handler.php");
   include("includes/handler/login_handler.php");
 
   //Remember values from input
-   function getInputValue($input){
-      if (isset($_POST['$input'])) {
-        echo $_POST['$input'];
+   function getInputValue($name){
+      if (isset($_POST[$name])) {
+        echo $_POST[$name];
       }
    }
 ?>
@@ -36,12 +36,26 @@
     </style>
 
 
-    <script >
-      $(document).ready(function() {
-        $("#loginForm").show();
-        $("#registerForm").hide();
-    });
-    </script>
+  <?php
+ 
+    if(isset($_POST['registerButton'])) {
+        echo '<script>
+                $(document).ready(function() {
+                    $("#loginForm").hide();
+                    $("#registerForm").show();
+                });
+            </script>';
+    }
+    else {
+        echo '<script>
+                $(document).ready(function() {
+                    $("#loginForm").show();
+                    $("#registerForm").hide();
+                });
+            </script>';
+    }
+ 
+    ?>
 
 
 

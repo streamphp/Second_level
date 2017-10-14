@@ -40,6 +40,7 @@ body{
     color: #f7f8f9;
     font-size: 18px;
     font-family:'Roboto',sans-serif;
+
 }
 
 #inputContainer {
@@ -89,3 +90,4 @@ font-family:'Roboto',sans-serif;
 #registerForm{
 	display: none;
 }
+
