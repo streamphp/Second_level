@@ -11,8 +11,14 @@ include("includes/handler/config.php");
 <html lang="en">
   <head>
     <!-- Required meta tags -->
+    <!-- Required meta tags -->
+    <meta name="description" content="slotify is a digital music service that gives you access to millions of songs.">
+    <meta name="keywords" content="slotify, music, online, listen, streaming, play, digital, album, artist, playlist">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Welcome to Slotify!</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
