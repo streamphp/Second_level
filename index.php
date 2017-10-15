@@ -25,7 +25,9 @@ include("includes/handler/config.php");
   </head>
   <body>
 
-      <h1>Welcome to home page ^_^ </h1>
+      <h1 style="text-align: center;">
+      welcome to slotify!         
+      </h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -144,3 +144,10 @@ label{
     content: "";
     color: #5dd88c;
 }
+
+#inputContainer .errorMessage{
+	
+    color: #5dd88c;
+    font-size: 14px;
+    display: block;
+}

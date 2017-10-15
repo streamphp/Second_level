@@ -34,7 +34,7 @@
     <script src="assets/js/register.js"></script>
     <style>
       body {
-        font-family: 'Roboto', serif;
+        font-family: 'Roboto', serif-sans;
         font-size: 20px;
       }
     </style>
@@ -61,14 +61,11 @@
  
     ?>
 
-
-
-
-
   </head>
   <body>
+ 
   <div class="jumbotron" id="background">
-    <div class="loginContainer">
+    <div class="col-sm  col-md loginContainer   ">
          <div id="inputContainer">
          <form id="loginForm" action="register.php" method="POST">
           <h4>Login to you account</h4>
@@ -148,7 +145,7 @@
         </div>
     </div>
   </div>
-
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
